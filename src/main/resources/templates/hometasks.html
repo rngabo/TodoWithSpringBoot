@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <!-- Include custom CSS -->
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Takeyourtasks</h1>
+        <div class="circle">
+            <span>Image</span>
+        </div>
+    </header>
+    <main>
+        <div class="row input-section">
+            <div class="col-8">
+                <input type="text" class="form-control input-field" placeholder="Task Bar">
+            </div>
+            <div class="col-2">
+                <button type="button" class="btn btn-secondary calendar-button">
+                    <span class="calendar-text">Schedule</span>
+                </button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary save-button">Save</button>
+            </div>
+        </div>
+        <div class="row dropdown-section">
+            <div class="col-6">
+                <select class="form-control dropdown-field">
+                    <option value="pending" selected>Pending</option>
+                    <option value="completed">Completed</option>
+                </select>
+            </div>
+        </div>
+        <div class="row task-section">
+            <div class="col-12">
+                <div class="task-row">
+                    <span>Task 1</span>
+                    <button class="btn btn-success button">Mark Done</button>
+                </div>
+                <div class="task-row">
+                    <span>Task 2</span>
+                    <button class="btn btn-success button">Mark Done</button>
+                </div>
+                <div class="task-row">
+                    <span>Task 3</span>
+                    <button class="btn btn-success button">Mark Done</button>
+                </div>
+            </div>
+        </div>
+        <div class="row buttons-section">
+            <div class="col-6">
+                <div class="button-container">
+                    <button class="btn btn-primary button">Prev</button>
+                    <button class="btn btn-primary button">Next</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+<!-- Include Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
