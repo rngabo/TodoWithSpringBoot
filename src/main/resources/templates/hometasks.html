@@ -7,6 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
     <!-- Include custom CSS -->
     <link rel="stylesheet" href="../styles.css">
+    <style>
+        .task-row span {
+            width: 80%;
+        }
+        .task-row button {
+            width: 10%;
+            height: 100%;
+            border-radius: 0;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -41,16 +51,19 @@
         <div class="row task-section">
             <div class="col-12">
                 <div class="task-row">
-                    <span>Task 1</span>
-                    <button class="btn btn-success button">Mark Done</button>
+                    <span style="width: 80%;">Task 1</span>
+                    <button style="width: 10%;" class="btn btn-danger button">Delete</button>
+                    <button style="width: 10%;" class="btn btn-success button">Mark Done</button>
                 </div>
                 <div class="task-row">
-                    <span>Task 2</span>
-                    <button class="btn btn-success button">Mark Done</button>
+                    <span style="width: 80%;">Task 2</span>
+                    <button style="width: 10%;" class="btn btn-danger button">Delete</button>
+                    <button style="width: 10%;" class="btn btn-success button">Mark Done</button>
                 </div>
                 <div class="task-row">
-                    <span>Task 3</span>
-                    <button class="btn btn-success button">Mark Done</button>
+                    <span style="width: 80%;">Task 3</span>
+                    <button style="width: 10%;" class="btn btn-danger button">Delete</button>
+                    <button style="width: 10%;" class="btn btn-success button">Mark Done</button>
                 </div>
             </div>
         </div>
