@@ -76,6 +76,12 @@
             </div>
         </div>
 
+        <!-- Display the message -->
+        <div th:if="${message}" class="row">
+            <div class="col-12">
+                <p th:text="${message}" class="alert alert-info"></p>
+            </div>
+        </div>
     </main>
 </div>
 
